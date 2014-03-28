@@ -1104,7 +1104,7 @@
 
 	#intro {
 		background: url('images/overlay.png'), url('../images/flowerwheel.jpg');
-		background-size: 256px 256px, cover;
+		background-size: auto, auto, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, bottom center;
 		background-repeat: repeat, no-repeat;
@@ -1116,7 +1116,7 @@
 
 	#one {
 		background: url('images/overlay.png'), url('../images/mariposa-up.jpg');
-		background-size: 256px 256px, cover;
+		background-size: auto, auto, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
 	}
@@ -1127,7 +1127,7 @@
 
 	#two {
 		background: url('images/overlay.png'), url('../images/flores 2-up.jpg');
-		background-size: 256px 256px, cover;
+		background-size: auto, auto, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
 	}
