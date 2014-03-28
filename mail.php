@@ -1,4 +1,6 @@
 <?php
+require '/PHPMailer-master/PHPMailerAutoload.php';
+
 $name = $_POST['name'];
 $email = $_POST['email'];
 $confirm = $_POST['confirm'];
