@@ -10,7 +10,6 @@
 		<script src="js/jquery.poptrox.min.js"></script>
 		<script src="js/skel.min.js"></script>
 		<script src="js/init.js"></script>
-		<script type="text/javascript" src="http://maps.google.com/maps/api/js?v=3&sensor=false"></script>
 		<noscript>
 			<link rel="stylesheet" href="css/skel-noscript.css" />
 			<link rel="stylesheet" href="css/style.css" />
@@ -45,9 +44,6 @@
 						<h2>¡Hola!</h2>
 					</header>
 					<p>En este día tan especial para mi y mis papis quisiera que podamos disfrutarlo todos juntos y celebrar así mi primer añito.</p>
-					<!--<p>Welcome to <strong>Big Picture</strong> a responsive site template designed
-					by <a href="http://html5up.net">HTML5 UP</a>, built on <a href="http://skeljs.org">skelJS</a>,
-					and released for free under the <a href="http://html5up.net/license/">Creative Commons Attribution 3.0 license</a>.</p>-->
 					<footer>
 						<a href="#one" class="button style2 down">Más</a>
 					</footer>
@@ -72,18 +68,8 @@
 						<h2>Dónde</h2>
 					</header>
 					<p>Es en el salón de Afucar, la dirección es Avenida Joaquin Suárez 2925 entre Alejandro Fiol de Pereda y Dr Evaristo Ciganda.</p>
-					<div class="map">
-						<style type="text/css" media="screen">.gm-style img{max-width: none; !important; background:none !important;}.gm-style-iw{height:auto !important; color:#000000; display:block; white-space:nowrap; width:auto !important; line-height:18px; overflow:hidden !important;}
-						</style>
-						<script type="text/javascript" src="http://maps.google.com/maps/api/js?v=3&sensor=false">
-						</script>
-						<div style="height:322px;width:400px;overflow:hidden;">
-							<div id="gmap_canvas" style="height:322px; width:400px;">
-							</div>
-							<a href="http://www.embed-google-map.com/wordpress/" class="map-data">wordpress</a>
-						</div>
-						<script type="text/javascript">function init_map(){var myOptions = {zoom:15,center:new google.maps.LatLng(-34.875898868628425,-56.196547503704835),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById("gmap_canvas"), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(-34.875898868628425, -56.196547503704835)}); infowindow = new google.maps.InfoWindow({content:"<span style='height:auto !important; display:block; white-space:nowrap; overflow:hidden !important;'><strong style='font-weight:400;'>Afucar</strong><br>Av. Joaquin Su&aacute;rez 2925<br> Montevideo</span>" }); google.maps.event.addListener(marker, "click", function(){infowindow.open(map,marker);}); infowindow.open(map,marker);}google.maps.event.addDomListener (window, "load", init_map);
-						</script>
+					<div class="google-maps">
+				    	<iframe src="https://www.google.com/maps/embed/v1/place?q=-34.875898868628425,-56.196547503704835&zoom=16&key=AIzaSyC3EnJiKsBppZeXYV3lZNxAhz4M7bDA8-o" width="400" height="322" frameborder="0" style="border:0"></iframe>
 					</div>
 				</div>
 				<a href="#work" class="button style2 down anchored">Siguiente</a>
@@ -95,7 +81,6 @@
 					<header>
 						<h2>Yo</h2>
 					</header>
-					
 					<!--
 						 Lightbox Gallery
 						 
