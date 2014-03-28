@@ -126,11 +126,18 @@
 							 point the "action" attribute to it (eg. action="http://mydomain.tld/mail.php").
 							 More on how it all works here: http://www.1stwebdesigner.com/tutorials/custom-php-contact-forms/
 						-->
-							<form method="post" action="#">
+							<form action="mail.php" method="POST">
 								<div class="row half">
 									<div class="6u"><input type="text" name="name" placeholder="Nombre" /></div>
 									<div class="6u"><input type="text" name="email" placeholder="Email" /></div>
 								</div>
+								<div align="left"><br>
+									Confirme asistencia/ausencia:
+										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+										Si<input type="radio" name="confirm" value="Si">
+										&nbsp;&nbsp;&nbsp;
+										No<input type="radio" name="confirm" value="No">
+								</div><br>
 								<div class="row half">
 									<div class="12u"><textarea name="message" placeholder="Mensaje" rows="6"></textarea></div>
 								</div>
@@ -165,7 +172,7 @@
 					</ul>-->
 				<div style="text-align:center;">
 					<header>
-						<a href="#intro" style="text-decoration: none">
+						<a href="#intro"> <!--style="text-decoration: none">-->
 							<h2>¡Gracias!</h2>
 						</a>
 
