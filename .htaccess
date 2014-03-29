@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Protegido"
+AuthUserFile /fdelfinoh/isabelladelfino/.htpasswd
+Require valid-user
